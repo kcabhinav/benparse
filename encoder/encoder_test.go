@@ -37,7 +37,6 @@ func TestEncodeString(t *testing.T) {
 		if result != test.expected {
 			t.Errorf("EncodeString(%s) = %s; want %s", test.input, result, test.expected)
 		}
-	}
 }
 
 func TestEncodeList(t *testing.T) {
